@@ -661,6 +661,15 @@ msgstr ""
 "目标着色器参数指定应用设置的着色器。"
 "您可以排除特定着色器不受控制。"
 
+msgid "settings:other/include-particle-system"
+msgstr "粒子系统设置"
+
+msgid "settings:other/include-particle-system/label"
+msgstr "粒子系统设定为动画目标"
+
+msgid "settings:other/include-particle-system/description"
+msgstr "如果粒子系统包含目标着色器，该设置可以生成动画来控制亮度等。"
+
 msgid "settings:other/language/label"
 msgstr "语言设置"
 
