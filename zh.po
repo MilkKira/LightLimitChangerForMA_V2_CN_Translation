@@ -31,10 +31,10 @@ msgid "common:label/synced"
 msgstr "同步"
 
 msgid "common:label/false"
-msgstr "关闭"
+msgstr "否"
 
 msgid "common:label/true"
-msgstr "打开"
+msgstr "是"
 
 msgid "common:label/write-defaults"
 msgstr "写入默认"
@@ -97,16 +97,16 @@ msgid "link:description"
 msgstr "链接"
 
 msgid "link:changelog"
-msgstr "Changelog (X:Twitter)"
+msgstr "更新日志 (X:Twitter)"
 
 msgid "link:documentation"
-msgstr "Documentation"
+msgstr "文档链接"
 
 msgid "link:feedback"
-msgstr "Feedback (Google Form)"
+msgstr "反馈 (Google 表格)"
 
 msgid "link:discord"
-msgstr "Discord for Bug Reports/Support"
+msgstr "在 Discord 反馈Bug/支持发展"
 
 ##################
 ## Save Settings and Presets
@@ -205,7 +205,7 @@ msgid "category:poiyomi"
 msgstr "Poiyomi"
 
 msgid "category:poiyomi/pp-animations"
-msgstr "PP Animations"
+msgstr "PP 动画"
 
 msgid "category:sunao-settings"
 msgstr "Sunao"
