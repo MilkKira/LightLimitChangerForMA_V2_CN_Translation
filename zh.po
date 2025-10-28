@@ -1,0 +1,980 @@
+msgid ""
+msgstr ""
+"Language: zh\n"  
+
+## Menu Item Labels 
+msgid "common:label/initial-value"
+msgstr "初值:"
+
+msgid "common:label/override-value"
+msgstr "覆写:"
+
+msgid "common:label/preset-value"
+msgstr "预值:"
+
+msgid "common:label/range"
+msgstr "范围:"
+
+msgid "common:label/option"
+msgstr "设置:"
+
+msgid "common:label/enable"
+msgstr "启用"
+
+msgid "common:label/animation"
+msgstr "动画"
+
+msgid "common:label/saved"
+msgstr "记录"
+
+msgid "common:label/synced"
+msgstr "同步"
+
+msgid "common:label/false"
+msgstr "否"
+
+msgid "common:label/true"
+msgstr "是"
+
+msgid "common:label/options"
+msgstr "选择"
+msgid "common:label/write-defaults"
+msgstr "写入默认"
+
+msgid "common:label/write-defaults/match-avatar"
+msgstr "匹配Avatar"
+
+msgid "common:label/migrate"
+msgstr "迁移"
+
+msgid "common:label/preset"
+msgstr "预设"
+
+msgid "common:label/default-preset"
+msgstr "默认预设"
+
+msgid "common:label/batch-settings"
+msgstr "批量设置"
+
+msgid "common:label/open"
+msgstr "展开"
+
+msgid "common:label/load"
+msgstr "加载"
+
+msgid "common:label/remove"
+msgstr "移除"
+
+msgid "common:label/reflesh"
+msgstr "刷新"
+
+msgid "common:label/save"
+msgstr "保存"
+
+msgid "common:label/slot"
+msgstr "槽位"
+
+msgid "common:label/copy"
+msgstr "复制设置"
+
+msgid "common:label/copy-with-child-settings"
+msgstr "复制设置 (包含子设置)"
+
+msgid "common:label/paste"
+msgstr "粘贴设置"
+
+msgid "common:label/reset"
+msgstr "重置"
+
+msgid "common:label/parameter-override"
+msgstr "参数覆写"
+
+msgid "common:label/texture-bake"
+msgstr "烘焙贴图"
+
+##################
+## Link Labels
+
+msgid "link:description"
+msgstr "链接"
+
+msgid "link:changelog"
+msgstr "更新日志 (X:Twitter)"
+
+msgid "link:documentation"
+msgstr "文档链接"
+
+msgid "link:feedback"
+msgstr "反馈 (Google 表格)"
+
+msgid "link:discord"
+msgstr "在 Discord 获取更新日志/反馈Bug/支持发展"
+
+##################
+## Save Settings and Presets
+
+msgid "editor-preset:inspector/title"
+msgstr "已保存设置"
+
+msgid "editor-preset:inspector/label/load-child-presets"
+msgstr "应用预设"
+
+msgid "editor-preset:inspector/label/preset-not-found"
+msgstr "未发现预设"
+
+msgid "preset-save-dialog:label/target-component"
+msgstr "目标组件"
+
+msgid "preset-save-dialog:label/preset-name"
+msgstr "预设名称"
+
+msgid "preset-save-dialog:label/save"
+msgstr "保存"
+
+msgid "runtime-preset:inspector/title"
+msgstr "预设编辑器"
+
+msgid "runtime-preset:inspector/none-presets"
+msgstr "未发现可用预设"
+
+msgid "runtime-preset:list/inspector/description"
+msgstr ""
+"您可以管理来自 ExMenu 预设的设置。\n\n"
+"通过按下'+'按钮，您可以添加一个预设对象，并可以从添加的对象中修改数值。\n"
+"预设名称将是该对象的名称。\n"
+"您可以更改预设在列表中的顺序，以调整 ExMenu 生成的菜单顺序。"
+
+msgid "runtime-preset:inspector/description"
+msgstr ""
+"预设编辑器是用于保存和加载设置的屏幕。\n"
+"通过更改此对象的设置，您可以在 ExMenu 生成的菜单中应用预设。\n\n"
+"预设名称将是此对象的名称。\n"
+"必须在父对象中启用每个功能才能使用。\n"
+"如果功能未启用，则选择此预设将不会更改数值。\n"
+"这对于仅想调整特定设置的情况非常方便，比如仅更改颜色。"
+
+##################
+## Setting Categories Labels
+
+msgid "category:mode/basic"
+msgstr "基础设置"
+
+msgid "category:mode/advanced"
+msgstr "进阶设置"
+
+msgid "category:mode/description"
+msgstr "描述模式"
+
+msgid "category:mode/preset"
+msgstr "预设"
+
+msgid "category:preset"
+msgstr "预设"
+
+msgid "category:general-settings"
+msgstr "一般设置"
+
+msgid "category:general-settings/description"
+msgstr ""
+"[启用] 允许您在单独使用功能之间进行切换。\n\n"
+"[动画] 可以启用以动态控制在 VRChat 中从 ExMenu 管理的项目。 \n"
+"如果您禁用此选项，则下面描述的 [初始值] 将变为一个名为 [重写值] 的参数，您可以统一应用 LLC 的材质设置。\n\n"
+"[初始值] 是在重置角色时初始化的值。\n\n"
+"[重写值] 是在非通过动画控制时通用化材质设置的值。\n\n"
+"[操作范围] 是在菜单中操作的数值范围，范围在 0 到 100% 之间。\n\n"
+"[同步] 是是否同步参数的值。如果可以异步进行，您可以通过关闭此设置来减轻负担。\n\n"
+"[保存] 是是否保存参数的值。如果关闭它，当移动到另一个世界或切换角色时，将对其进行初始化。"
+
+msgid "category:lighting"
+msgstr "光照设置"
+
+msgid "category:color-control"
+msgstr "颜色设置"
+
+msgid "category:material-settings"
+msgstr "阴影设置"
+
+msgid "category:lilToon"
+msgstr "lilToon"
+
+msgid "category:lilToon/distance-fade"
+msgstr "距离淡化"
+
+msgid "category:lilToon/backlight"
+msgstr "背光"
+
+msgid "category:poiyomi"
+msgstr "Poiyomi"
+
+msgid "category:poiyomi/pp-animations"
+msgstr "PP 动画"
+
+msgid "category:poiyomi/backlight"
+msgstr "背光"
+
+msgid "category:sunao-settings"
+msgstr "Sunao"
+
+msgid "category:unlitwf-settings"
+msgstr "UnlitWF"
+
+msgid "category:other-settings"
+msgstr "其他设置"
+
+##################
+## Lighting Settings
+
+msgid "category:lighting/description"
+msgstr ""
+"与整体照明相关的设置。\n"
+"[亮度下限] 和 [亮度上限] 是主要功能。\n"
+"通过调整这些参数，您可以调节亮度以适应世界。\n\n"
+"[单色化照明] 是一个功能，将影响角色的世界光颜色转换为单色。\n"
+"只调整亮度时，保证角色的颜色保持不变，即使暴露在彩色光线下。\n\n"
+"[无光照] 是一个参数，禁用角色上的照明效果。\n"
+"使用此功能可控制世界光对角色的影响。\n\n"
+"[发光] 是调整角色发光强度的参数。\n"
+"这可以防止在黑暗区域过度亮度或由 PostProcess 效果引起的过曝。\n\n"
+"[光照方向] 允许您覆写光源对角色的影响，从而确定从哪个方向对其进行照明。\n"
+"这使您可以从任何方向接收光线，而不受光源位置的影响。它可以在 0% 处关闭。"
+
+msgid "settings:lighting/min-light/label"
+msgstr "亮度下限"
+
+msgid "settings:lighting/min-light/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_LightMinLimit\n"
+"poiyomi:_LightingMinLightBrightness\n"
+"UnlitWF:_GL_LevelMin"
+
+msgid "settings:lighting/max-light/label"
+msgstr "亮度上限"
+
+msgid "settings:lighting/max-light/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_LightMaxLimit\n"
+"poiyomi:_LightingCap, _LightingAdditiveLimit\n"
+"UnlitWF:*****"
+
+msgid "settings:lighting/monochrome/label"
+msgstr "单色亮度"
+
+msgid "settings:lighting/monochrome/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_MonochromeLighting\n"
+"poiyomi:_LightingMonochromatic, _LightingAdditiveMonochromatic\n"
+"UnlitWF:*****"
+
+msgid "settings:lighting/unlit/label"
+msgstr "Unlit设置"
+
+msgid "settings:lighting/unlit/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_AsUnlit\n"
+"poiyomi:*****\n"
+"UnlitWF:*****"
+
+msgid "settings:lighting/emission-strength/label"
+msgstr "发光强度"
+
+msgid "settings:lighting/emission-strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_EmissionBlend\n"
+"poiyomi:_PPEmissionMultiplier\n"
+"UnlitWF:*****"
+
+msgid "settings:lighting/light-direction/label"
+msgstr "光照方向\n(0%关闭)"
+
+msgid "settings:lighting/light-direction/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_LightDirectionOverride"
+
+#################
+## 颜色设置
+
+msgid "category:color-control/description"
+msgstr ""
+"与整体颜色控制相关的设置。\n"
+"对于 lilToon，此操作不适用于第二主色。如果您想要修改它，请考虑烘焙纹理。\n\n"
+"[色调]、[饱和度]、[亮度] 和 [伽马] 是主要功能。\n"
+"调整这些参数可以改变角色的颜色。"
+
+msgid "category:color-control/texture-bake-information"
+msgstr ""
+"启用颜色设置会使用LLC进行操作，因此主颜色的任何更改都应烘焙到纹理中。\n"
+"烘焙可能会增加纹理内存的使用量。如果出现显着增加，请考虑审查材质设置或使用诸如TexTransTool之类的工具进行图集创建。"
+
+
+msgid "category:color-control/tips"
+msgstr ""
+"在使用 lilToon 时，饱和度、色调、亮度和伽马值无法单独禁用，因为它们由单个着色器参数控制。"
+"因此，如果其中任何一个被启用，其他被禁用的项目将被其覆盖值覆盖。"
+
+msgid "category:color-control/group/color-adjust"
+msgstr "颜色调整"
+
+msgid "category:color-control/group/color-change"
+msgstr "颜色改变"
+
+msgid "settings:color-control/hue/label"
+msgstr "色相"
+
+msgid "settings:color-control/hue/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_MainTexHSVG.x\n"
+"poiyomi:*****\n"
+"UnlitWF:*****"
+
+msgid "settings:color-control/saturation/label"
+msgstr "饱和"
+
+msgid "settings:color-control/saturation/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_MainTexHSVG.y\n"
+"poiyomi:_Saturation\n"
+"UnlitWF:*****"
+
+msgid "settings:color-control/brightness/label"
+msgstr "亮度"
+
+msgid "settings:color-control/brightness/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_MainTexHSVG.z\n"
+"poiyomi:*****\n"
+"UnlitWF:*****"
+
+msgid "settings:color-control/gamma/label"
+msgstr "伽马"
+
+msgid "settings:color-control/gamma/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_MainTexHSVG.w\n"
+"poiyomi:*****\n"
+"UnlitWF:*****"
+
+msgid "settings:color-control/color-temperature/label"
+msgstr "色温"
+
+msgid "settings:color-control/color-temperature/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_Color\n"
+"poiyomi:_Color\n"
+"UnlitWF:_Color"
+
+##################
+## lilToon Settings
+
+msgid "category:lilToon/description"
+msgstr ""
+"lilToon的特定设置。\n\n"
+"[阴影环境强度]调整阴影环境的强度。\n"
+"这使您能够控制阴影的强度。\n\n"
+"[顶点光照强度]调整顶点光照的强度。\n"
+"当镜子中的亮度变化时，这通常是原因所在。"
+
+msgid "settings:lilToon/shadow-env-strength/label"
+msgstr "环境阴影强度"
+
+msgid "settings:lilToon/shadow-env-strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_ShadowEnvStrength"
+
+msgid "settings:lilToon/vertex-light-strength/label"
+msgstr "顶点光照强度"
+
+msgid "settings:lilToon/vertex-light-strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_VertexLightStrength"
+
+##################
+## lilToon Distance Fade
+
+msgid "category:lilToon/distance-fade/description"
+msgstr ""
+"lilToon的特定设置。\n\n"
+"[距离淡出]基于角色的距离控制淡出效果。\n"
+"随着角色远离，它会逐渐变淡，允许调整外观。\n\n"
+"[开始距离]调整淡出效果的起始距离。\n"
+"[结束距离]调整淡出效果的结束距离。\n"
+"[强度]调整淡出效果的强度。\n"
+"[颜色]调整淡出效果的颜色。\n"
+"[强制背面阴影]切换是否为背面增加阴影。\n\n"
+"默认情况下动画控制是禁用的，如果需要请启用它。\n"
+"如果不使用动画控制，[Override Value]将用于应用通用材质设置。\n"
+"这对批量应用整个角色的设置非常方便。"
+
+msgid "category:lilToon/distance-fade/tips"
+msgstr ""
+"每个距离衰减项（除[Force Backface Shadow]外）均由单个着色器参数控制，且无法单独禁用。\n"
+"因此，如果其中任何一个被启用，其他禁用的项将被其覆盖值覆盖。"
+
+msgid "settings:lilToon/distance-fade/fade-color/label"
+msgstr "颜色"
+
+msgid "settings:lilToon/distance-fade/fade-color/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_DistanceFadeColor"
+
+msgid "settings:lilToon/distance-fade/start/label"
+msgstr "开始距离"
+
+msgid "settings:lilToon/distance-fade/start/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_DistanceFade.x"
+
+msgid "settings:lilToon/distance-fade/end/label"
+msgstr "结束距离"
+
+msgid "settings:lilToon/distance-fade/end/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_DistanceFade.y"
+
+msgid "settings:lilToon/distance-fade/strength/label"
+msgstr "强度"
+
+msgid "settings:lilToon/distance-fade/strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_DistanceFade.z"
+
+msgid "settings:lilToon/distance-fade/backface-force-shadow/label"
+msgstr "强制背面阴影"
+
+msgid "settings:lilToon/distance-fade/backface-force-shadow/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_DistanceFade.w"
+
+##################
+## lilToon Backlight
+
+msgid "category:lilToon/backlight/description"
+msgstr ""
+"lilToon的特定设置。\n\n"
+"[使用背光]切换是否使用背光。\n"
+"使用背光可以使光线从角色背后照射。\n\n"
+"[背光颜色]调整背光的颜色。\n"
+"[主色强度]调整背光主要颜色的强度。\n"
+"[范围]调整背光的范围。\n"
+"[模糊度]调整背光的模糊度。\n"
+"[定向性]调整背光的定向性。\n"
+"[视角方向影响]调整视角方向对背光的影响。\n"
+"[是否背光允许阴影]切换是否允许背光接收世界中的阴影。\n"
+"[是否背面禁用背光]切换是否在背面禁用背光。"
+
+msgid "settings:lilToon/backlight/use-backlight/label"
+msgstr "背光灯"
+
+msgid "settings:lilToon/backlight/use-backlight/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_UseBacklight"
+
+msgid "settings:lilToon/backlight/backlight-color/label"
+msgstr "背光颜色"
+
+msgid "settings:lilToon/backlight/backlight-color/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightColor"
+
+msgid "settings:lilToon/backlight/backlight-main-strength/label"
+msgstr "主色强度"
+
+msgid "settings:lilToon/backlight/backlight-main-strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightMainStrength"
+
+msgid "settings:lilToon/backlight/backlight-border/label"
+msgstr "范围"
+
+msgid "settings:lilToon/backlight/backlight-border/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightBorder"
+
+msgid "settings:lilToon/backlight/backlight-blur/label"
+msgstr "模糊"
+
+msgid "settings:lilToon/backlight/backlight-blur/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightBlur"
+
+msgid "settings:lilToon/backlight/backlight-directivity/label"
+msgstr "指向性"
+
+msgid "settings:lilToon/backlight/backlight-directivity/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightDirectivity"
+
+msgid "settings:lilToon/backlight/backlight-view-strength/label"
+msgstr "方向影响"
+
+msgid "settings:lilToon/backlight/backlight-view-strength/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightViewStrength"
+
+msgid "settings:lilToon/backlight/receive-shadow/label"
+msgstr "接受阴影"
+
+msgid "settings:lilToon/backlight/receive-shadow/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightReceiveShadow"
+
+msgid "settings:lilToon/backlight/backface-mask/label"
+msgstr "禁用背面"
+
+msgid "settings:lilToon/backlight/backface-mask/description"
+msgstr ""
+"Control Parameter\n"
+"lilToon:_BacklightBackfaceMask"
+
+msgid "settings:lilToon/backlight/add-light-direction-menu/label"
+msgstr "当启用光线方向控制时添加菜单"
+
+msgid "settings:lilToon/backlight/add-light-direction-menu/description"
+msgstr "启用此选项后，如果在照明设置中启用了[光线方向]选项，系统还将为背光菜单生成一个相同的菜单"
+
+##################
+## Poiyomi Settings
+
+msgid "category:poiyomi/description"
+msgstr ""
+"Poiyomi特有的设置。\n\n"
+"[Brightness Upper Limit (Add Pass)]和[Monochromize Lighting (Add Pass)]是主要功能。\n"
+"Add Pass允许调整点光和聚光灯光的影响。\n"
+"这些功能可以在基本设置中进行控制，但启用它们可以独立控制基本通道和附加通道。\n"
+"在这种情况下，基本设置中的[Brightness Upper Limit]和[Monochromize Lighting] 控制基本通道菜单。"
+
+msgid "settings:poiyomi/max-additive-light/label"
+msgstr "亮度上限（附加通道）"
+
+msgid "settings:poiyomi/max-additive-light/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_LightingAdditiveLimit"
+
+msgid "settings:poiyomi/monochrome-additive/label"
+msgstr "单色化光照（附加通道）"
+
+msgid "settings:poiyomi/monochrome-additive/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_LightingAdditiveMonochromatic"
+
+msgid "category:poiyomi/pp-animations/description"
+msgstr ""
+"PP Animations是用于控制Poiyomi的PP动画功能的设置。\n\n"
+"[光照乘数]调整角色的亮度倍增器。\n"
+"[光照叠加]调整角色的亮度增加量。\n"
+"[发光乘数]调整角色的发光倍增器。\n"
+"[最终颜色乘数]调整角色输出颜色的强度。"
+
+msgid "settings:poiyomi/pp-animations/lighting-multiplier/label"
+msgstr "光照乘数"
+
+msgid "settings:poiyomi/pp-animations/lighting-multiplier/description"
+msgstr ""
+"Control Parameter\n"
+"_PPLightingMultiplier"
+
+msgid "settings:poiyomi/pp-animations/lighting-addition/label"
+msgstr "光照叠加"
+
+msgid "settings:poiyomi/pp-animations/lighting-addition/description"
+msgstr ""
+"Control Parameter\n"
+"_PPLightingAddition"
+
+msgid "settings:poiyomi/pp-animations/emission-multiplier/label"
+msgstr "发光乘数"
+
+msgid "settings:poiyomi/pp-animations/emission-multiplier/description"
+msgstr ""
+"Control Parameter\n"
+"_PPEmissionMultiplier"
+
+msgid "settings:poiyomi/pp-animations/final-color-multiplier/label"
+msgstr "最终颜色乘数"
+
+msgid "settings:poiyomi/pp-animations/final-color-multiplier/description"
+msgstr ""
+"Control Parameter\n"
+"_PPFinalColorMultiplier"
+
+## Backlight[背光]
+
+
+msgid "category:poiyomi/backlight/description"
+msgstr ""
+"与poiyomi相关的设置.\n\n"
+"[使用背光] 切换是否使用背光.\n"
+"使用背光可在角色背后应用光源.\n\n"
+"[背光颜色] 调整背光的颜色.\n"
+"[主色强度] 调整背光主色的亮度.\n"
+"[范围] 调整背光的范围。\n"
+"[模糊] 调整背光的模糊程度。\n"
+"[方向性] 调整背光的方向性。\n"
+"[视角方向影响] 调整视角方向对背光的影响。\n"
+"[接收阴影] 切换背光是否接收来自世界的阴影。\n"
+"[背面禁用] 切换背光是否在背面禁用。"
+
+msgid "category:poiyomi/backlight/tips"
+msgstr ""
+"在Poiyomi中，无法开启或关闭背光。因此，若需移除背光，请将阴影范围设置为100%。\n"
+"使用[光线方向]功能时，请注意：除非方向性接近0，否则该功能将无效。"
+
+msgid "settings:poiyomi/backlight/use-backlight/label"
+msgstr "使用背光"
+
+msgid "settings:poiyomi/backlight/use-backlight/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_UseBacklight"
+
+msgid "settings:poiyomi/backlight/backlight-color/label"
+msgstr "背光颜色"
+
+msgid "settings:poiyomi/backlight/backlight-color/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightColor"
+
+msgid "settings:poiyomi/backlight/backlight-main-strength/label"
+msgstr "主色强度"
+
+msgid "settings:poiyomi/backlight/backlight-main-strength/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightMainStrength"
+
+msgid "settings:poiyomi/backlight/backlight-border/label"
+msgstr "边界"
+
+msgid "settings:poiyomi/backlight/backlight-border/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightBorder"
+
+msgid "settings:poiyomi/backlight/backlight-blur/label"
+msgstr "模糊"
+
+msgid "settings:poiyomi/backlight/backlight-blur/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightBlur"
+
+msgid "settings:poiyomi/backlight/backlight-directivity/label"
+msgstr "方向性"
+
+msgid "settings:poiyomi/backlight/backlight-directivity/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightDirectivity"
+
+msgid "settings:poiyomi/backlight/backlight-view-strength/label"
+msgstr "视角方向影响"
+
+msgid "settings:poiyomi/backlight/backlight-view-strength/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightViewStrength"
+
+msgid "settings:poiyomi/backlight/receive-shadow/label"
+msgstr "接受阴影"
+
+msgid "settings:poiyomi/backlight/receive-shadow/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightReceiveShadow"
+
+msgid "settings:poiyomi/backlight/backface-mask/label"
+msgstr "禁用背面"
+
+msgid "settings:poiyomi/backlight/backface-mask/description"
+msgstr ""
+"Control Parameter\n"
+"poiyomi:_BacklightBackfaceMask"
+
+msgid "settings:poiyomi/backlight/add-light-direction-menu/label"
+msgstr "当启用光线方向控制时添加菜单"
+
+msgid "settings:poiyomi/backlight/add-light-direction-menu/description"
+msgstr "启用此选项后，如果在照明设置中启用了[光线方向]选项，系统还将为背光菜单生成一个相同的菜单。"
+
+##################
+## Shader Settings
+
+##################
+## Authentication
+
+msgid "auth:message/not-verified"
+msgstr ""
+"Light Limit Changer 未经过身份验证\n"
+"请输入随购买提供的密码"
+
+msgid "auth:label/open-authenticator"
+msgstr "打开身份验证窗口"
+
+msgid "auth:label/password"
+msgstr "密码"
+
+msgid "auth:label/verify"
+msgstr "验证"
+
+msgid "auth:message/info"
+msgstr "密码包含在从Booth购买后下载的文件中。"
+
+msgid "auth:message/incorrect"
+msgstr "密码错误，或者设备未连接到互联网。"
+
+##################
+## Other Settings
+
+msgid "settings:other/excludes/label"
+msgstr "排除设置"
+
+msgid "settings:other/excludes/description"
+msgstr ""
+"排除设置允许您排除Avatar中特定材料不受控制。"
+"通过直接指定材料，您可以排除仅特定材料不受控制。"
+
+msgid "settings:other/excludes/exclude-object"
+msgstr "排除对象"
+
+msgid "settings:other/excludes/add-section/game-object"
+msgstr "添加对象"
+
+msgid "settings:other/excludes/add-section/material"
+msgstr "添加材质"
+
+msgid "settings:other/excludes/include-children"
+msgstr "包含子级"
+
+msgid "settings:other/writedefault/label"
+msgstr "Write Defaults"
+
+msgid "settings:other/writedefault/description"
+msgstr ""
+"Write Defaults设置允许更改生成动画的Write Defaults设置。\n"
+"通常，这会自动调整以匹配角色，但如果出现问题，您可以手动进行调整。"
+
+msgid "settings:other/target_shader/label"
+msgstr "目标着色器"
+
+msgid "settings:other/target_shader/description"
+msgstr ""
+"目标着色器参数指定应用设置的着色器。"
+"您可以排除特定着色器不受控制。"
+
+msgid "settings:other/include-particle-system"
+msgstr "粒子系统设置"
+
+msgid "settings:other/include-particle-system/label"
+msgstr "粒子系统设定为动画目标"
+
+msgid "settings:other/include-particle-system/description"
+msgstr "如果粒子系统包含目标着色器，该设置可以生成动画来控制亮度等。"
+
+msgid "settings:other/language/label"
+msgstr "语言设置"
+
+msgid "settings:other/compress-expression-parameters/label"
+msgstr "参数压缩"
+
+msgid "settings:other/compress-expression-parameters/description"
+msgstr ""
+"此功能压缩Light Limit Changer功能使用的参数。\n\n"
+"通过启用此功能，浮点参数可以压缩为总共16位。\n"
+"然而，这可能会导致同步速度较慢。"
+
+msgid "settings:other/parameter-sync-frequency/label"
+msgstr "参数同步频率（秒）"
+
+msgid "settings:other/parameter-sync-frequency/description"
+msgstr ""
+"(高级）设置参数同步的启动频率，以秒为单位。\n"
+"接近 0 表示速度更快，数值越大表示速度越慢。"
+
+msgid "settings:other/add-manual-sync-button/label"
+msgstr "添加手动同步按钮"
+
+msgid "settings:other/add-manual-sync-button/description"
+msgstr ""
+"在菜单中添加一个按钮，用于手动启动参数同步。\n"
+"这个按钮旨在与减慢参数同步频率一起使用。"
+
+msgid "settings:other/allow-force-override-same-reference/label"
+msgstr "强制覆写相同引用"
+
+msgid "settings:other/allow-force-override-same-reference/description"
+msgstr ""
+"在烘焙时，此功能会覆写材质内与主纹理共享相同引用的纹理。\n"
+"启用此功能后，可以在烘焙后覆写主纹理和轮廓纹理（如果它们共享相同的引用）。\n"
+"这可以减少显存使用量，但可能会改变外观。"
+
+msgid "settings:other/preset"
+msgstr "预设"
+
+msgid "settings:other/generate-default-preset"
+msgstr "生成默认预设值"
+
+msgid "settings:other/preset/description"
+msgstr "添加初始值预设以重置每个参数"
+
+msgid "settings:other/dynamic-preset/label"
+msgstr "动态预设"
+
+msgid "settings:other/dynamic-preset/generate-dynamic-preset"
+msgstr "启用保存槽位"
+
+msgid "settings:other/dynamic-preset/dynamic-preset-slot-count"
+msgstr "保存槽数量"
+
+msgid "settings:other/dynamic-preset/description"
+msgstr ""
+"增加保存槽，用于从<EX菜单>保存和加载当前设置。"
+
+msgid "settings:other/ndmf-preview/title"
+msgstr ""
+"NDMF 预览"
+
+msgid "settings:other/ndmf-preview/label"
+msgstr ""
+"Enable 实时预览"
+
+msgid "settings:other/ndmf-preview/description"
+msgstr ""
+"启用NDMF预览。\n"
+"这使您能够实时查看值被覆写的情况。\n"
+"请注意，颜色控制设置不会在预览中反映出来。"
+
+msgid "settings:other/mesh-settings/title"
+msgstr "网格设置"
+
+msgid "settings:other/mesh-settings/override-settings"
+msgstr "覆写网格设置"
+
+msgid "settings:other/mesh-settings/anchor-override"
+msgstr "锚点覆写"
+
+msgid "settings:other/mesh-settings/root-bone"
+msgstr "根骨骼"
+
+msgid "settings:other/mesh-settings/bounds"
+msgstr "渲染边界"
+
+msgid "settings:other/mesh-settings/description"
+msgstr ""
+"当启用此功能时，您可以使Avatar的根骨骼和边界相同。\n"
+"如果Avatar根部存在 MA MeshSettings，则其内容将被覆写；如果不存在，则会生成一个新的。\n"
+"如果Avatar中存在另一个 MA MeshSettings，则除 [未设置] 外的所有组件设置将被更改为 [继承]。"
+
+##################
+## Migration
+
+msgid "migration:v1/message"
+msgstr ""
+"这个组件已过时，并且不兼容 Light Limit Changer V2 及以后的版本。\n"
+"\n"
+"通过点击下面的 '迁移' 按钮，您可以将 V1.x 版本的设置迁移到 V2.x 版本的组件中，同时保留一些先前配置的数值"
+
+##################
+## Error Messages
+
+## When old LLC is still present
+msgid "error:found-old-version/title"
+msgstr ""
+"发现了一个过时的 Light Limit Changer 组件在头像中。"
+
+msgid "error:found-old-version/details"
+msgstr ""
+"这个过时的组件在运行时不会生成动画。"
+
+msgid "error:found-old-version/hint"
+msgstr ""
+"移除过时的组件并重新安装Light Limit Changer，或者使用检查器将过时的组件迁移到最新版本。"
+
+msgid "error:duplicate-installed"
+msgstr ""
+"检测到 Avatar 中存在多个 Light Limit Changer 实例，因此已阻止该对象。"
+
+msgid "error:failed-to-add/vrc-avatar-parameter-driver"
+msgstr ""
+"Failed to add VRCAvatarParameterDriver.\n"
+"检查是否有其他脚本引起的编译错误。"
+
+## When using unsupported Poiyomi Toon version
+msgid "error:poiyomi/exist-unsupported-version/title"
+msgstr ""
+"Poiyomi Toon version {0} 目前不支持."
+
+msgid "error:unlitwf/bake-shader-not-found/title"
+msgstr ""
+"未找到 UnlitWF 的烘焙着色器，因此跳过了烘焙过程。"
+
+msgid "error:unlitwf/bake-shader-not-found/hint"
+msgstr ""
+"将 UnlitWF 着色器更新到最新版本可能会解决这个问题。"
+
+msgid "error:liltoon/exist-lilmulti/title"
+msgstr ""
+"在头像中发现了使用 lilToonMulti 着色器的材质。\n"
+"某些动画可能无法正常运行。"
+
+msgid "error:network-timeout"
+msgstr ""
+"与身份验证服务器的通信超时。\n"
+"请检查您的网络环境并重试。"
+
+##################
+## EX Menu
+
+msgid "ex-menu:manual-sync"
+msgstr "同步参数"
+
+msgid "ex-menu:dynamic-preset"
+msgstr "动态预设"
+
+msgid "ex-menu:dynamic-preset/save"
+msgstr "保存"
+
+msgid "ex-menu:dynamic-preset/load"
+msgstr "加载"
+
+msgid "ex-menu:postfix/r"
+msgstr "红"
+
+msgid "ex-menu:postfix/g"
+msgstr "绿"
+
+msgid "ex-menu:postfix/b"
+msgstr "蓝"
+
+msgid "ex-menu:postfix/a"
+msgstr "阿尔法"
+
+msgid "ex-menu:color/intensity"
+msgstr "强度"
